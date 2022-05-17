@@ -1,0 +1,7 @@
+frase = str(input('Digite seu nome completo: '))
+print(frase.upper())
+print(frase.lower())
+f2 = (frase.split())
+f3 = (''.join(f2))
+print('O nome {} possui {} letras'.format(frase, (len(f3))))
+print('O primeiro nome {} possui {} letras'.format(f2[0], (len(f2[0]))))
